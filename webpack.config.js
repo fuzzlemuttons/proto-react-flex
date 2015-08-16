@@ -22,7 +22,7 @@ module.exports = {
             {
                 test: /\.jsc?$/,
                 exclude: /(node_modules|bower_components)/,
-                loader: "babel-loader!react-hot"
+                loader: "react-hot!babel-loader"
             }
         ]
     }
